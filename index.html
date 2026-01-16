@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viator: Travel Tours, Activities and Things to Do</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/dist/css/all.min.css">
+    <style></style>
+</head>
+<body class="font-sans text-gray-900">
+
+    <nav class="relative top-0 z-50 bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+        <div class="flex items-center space-x-8">
+            <!-- <h1 class="text-3xl font-black italic tracking-tighter text-black">viator</h1> -->
+             <img class="w-[100px] h-auto" src="images/logo/Viator_logo.png" alt="viator">
+            <div class="hidden md:flex space-x-6 text-sm font-semibold">
+                <div class="flex justify-center items-center w-[80px] h-[30px]  border-solid rounded-full hover:bg-[#d9d9d9]">
+                <h3 class="">discover</h3>
+                <span >
+                    <img src="images/logo/downb.svg" alt="">
+                </span>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center space-x-4 border-solid border-[4px]">
+            <button class="bg-black text-white px-4 py-2 rounded-full text-sm font-bold">Sign Up</button>
+        </div>
+    </nav>
+
+    <header class="relative h-[450px] flex items-center justify-center">
+        <img src="images/caption (2).jpg" alt="Travel" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/30"></div>
+        
+        <div class="relative z-10 w-full max-w-4xl px-4">
+            <h2 class="text-white text-4xl md:text-5xl font-bold text-center mb-8 drop-shadow-lg">
+              Do more with Viator
+            </h2>
+            <p>Plan better with 300,000+ travel experiences.</p>
+            
+            <div class="bg-white p-2 rounded-full shadow-2xl flex flex-col md:flex-row items-center gap-2">
+                <div class="flex-1 w-full border-r border-gray-200 px-4 py-2">
+                    <p class="text-xs font-bold text-gray-500 uppercase">Where to?</p>
+                    <input type="text" placeholder="Search destinations or activities" class="w-full focus:outline-none text-lg">
+                </div>
+                <div class="flex-1 w-full px-4 py-2">
+                    <p class="text-xs font-bold text-gray-500 uppercase">When?</p>
+                    <input type="text" placeholder="Select dates" class=" focus:outline-none text-lg">
+                </div>
+                <button class="flex justify-center items-center bg-[#008768] w-[60px] h-[60px] rounded-full font-bold hover:bg-[#003327] transition">
+                    <img src="images/logo/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="search">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="max-w-7xl mx-auto py-12 px-4 overflow-x-auto">
+        <div class="flex space-x-8 justify-between min-w-max">
+            <div class="flex flex-col items-center group cursor-pointer">
+                <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-yellow-100 transition">
+                    <i class="fa-solid fa-person-hiking text-2xl"></i>
+                </div>
+                <span class="mt-2 text-sm font-medium">Outdoor Activities</span>
+            </div>
+            <div class="flex flex-col items-center group cursor-pointer">
+                <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-yellow-100 transition">
+                    <i class="fa-solid fa-palette text-2xl"></i>
+                </div>
+                <span class="mt-2 text-sm font-medium">Art & Culture</span>
+            </div>
+            <div class="flex flex-col items-center group cursor-pointer">
+                <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-yellow-100 transition">
+                    <i class="fa-solid fa-utensils text-2xl"></i>
+                </div>
+                <span class="mt-2 text-sm font-medium">Food & Drink</span>
+            </div>
+            <div class="flex flex-col items-center group cursor-pointer">
+                <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-yellow-100 transition">
+                    <i class="fa-solid fa-ticket text-2xl"></i>
+                </div>
+                <span class="mt-2 text-sm font-medium">Tickets</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto py-12 px-4">
+        <h3 class="text-2xl font-bold mb-8">Top destinations</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="relative rounded-lg overflow-hidden h-64 group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <span class="absolute bottom-4 left-4 text-white font-bold text-xl">Paris</span>
+            </div>
+            <div class="relative rounded-lg overflow-hidden h-64 group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <span class="absolute bottom-4 left-4 text-white font-bold text-xl">Venice</span>
+            </div>
+            <div class="relative rounded-lg overflow-hidden h-64 group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <span class="absolute bottom-4 left-4 text-white font-bold text-xl">London</span>
+            </div>
+            <div class="relative rounded-lg overflow-hidden h-64 group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <span class="absolute bottom-4 left-4 text-white font-bold text-xl">Dubai</span>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
